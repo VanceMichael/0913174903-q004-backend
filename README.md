@@ -2,8 +2,10 @@
 
 技术栈：Java Spring Boot
 
-初始化与测试：./mvnw test
+初始化与构建：`mvn package`
 
-测试命令：./mvnw test
+迁移入口：`src/main/resources/db/migration`
+
+测试命令：`mvn test`
 
 SQLite 路径可通过环境变量配置，默认位于项目工作目录的 data 目录。
